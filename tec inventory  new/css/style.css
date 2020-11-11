@@ -6475,7 +6475,7 @@ img {
 }
 
 .cat_select{
-  width: 115px;
+  width: 120px;
   height: 25px;
   color: white;
   background-color: #34b46d;
@@ -6494,7 +6494,19 @@ img {
   background-color: #ff88008c;
   color: black;
 }
+.shipp_button{
+  color: white;
+  background-color: #34b46d;
+  border: none;
+  border-radius: 25px;
+  padding: 2px 20px 2px 20px;
+  margin-right: 18px;
+}
 
+.shipp_button:hover{
+  color: black;
+  background-color:#ff8800c7;
+}
 
 
 
@@ -6537,19 +6549,8 @@ img {
   max-height: 500px;
 }
 
-.shipp_button{
-  color: white;
-  background-color: teal;
-  border: none;
-  border-radius: 25px;
-  padding: 2px 20px 2px 20px;
-  margin-right: 18px;
-}
 
-.shipp_button:hover{
-  color: black;
-  background-color: crimson;
-}
+
 
 .exper_table{
   color: rgb(255, 0, 0);
