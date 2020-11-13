@@ -7,7 +7,7 @@
   <link rel="apple-touch-icon" sizes="76x76" href="img/teclog.png">
   <link rel="icon" type="image/png" href="img/teclog.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <title>RuhTecInventory.lk/Manage User</title>
+  <title>RuhTecInventory.lk/Report</title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
  <!--------font & Awesome icon link down----------->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
@@ -35,9 +35,9 @@
       <div class="sidebar-wrapper">
         <ul class="nav">
             <li class="active">
-                <a href="mangeuser.html">
+                <a href="dashboard.html">
                   <i class="nc-icon nc-badge"></i>
-                  <p>Manage User</p>
+                  <p>Dashboard</p>
                 </a>
               </li>
         </ul>
@@ -47,18 +47,13 @@
       <nav class="navbar navbar-expand-lg navbar-absolute fixed-top navbar-transparent">
         <div class="container-fluid">
           <div class="navbar-wrapper">
-            <a class="navbar-brand" href="">Add New User</a>
+            <a class="navbar-brand" href="">Old Survey Report</a>
           </div>
           <div class="collapse navbar-collapse justify-content-end" id="navigation">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link btn-rotate" href="log out eka link karanna">
                   <i class="nc-icon nc-button-power"></i>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link btn-rotate" href="All notification link">
-                  <div class="notification_count"><p class="not_cou">2<!-----notification count------></p></div><i class="nc-icon nc-bell-55"></i>;
                 </a>
               </li>
               <li class="nav-item">
@@ -72,83 +67,28 @@
       </nav>
       <div class="content">
         <div class="row">
-          <div class="col-md-10">
+          <div class="col-md-7">
             <div class="card card-user">
               <div class="card-header">
-                <h5 class="card-title"></h5>
+                <h6 class="card-title">Select Survey</h5>
                 <p class="error"></p>
               </div>
-                <p class="error"></p>
               <div class="card-body">
                 <form action="" method="post" enctype = "multipart/form-data">
                   <div class="row">
-                    <div class="col-md-5 pr-1">
+                    <div class="col-md-10 pl-5">
                       <div class="form-group">
-                        <label>Account Id</label>
-                        <input type="text" name="" class="form-control" placeholder="Acc. ID" value="data load karannaS">
-                      </div>
-                    </div>
-                    <div class="col-md-5 pr-1">
-                      <div class="form-group">
-                        <label>Password</label>
-                        <input type="password" name="" class="form-control" placeholder="password" value="data load karannaS">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-11">
-                      <div class="form-group">
-                        <label>Full Name</label>
-                        <input type="text" name="" class="form-control" placeholder="Full Name" value="">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-5 pr-1">
-                      <div class="form-group">
-                      <label>Tel No:</label>
-                        <input type="text" name="" class="form-control" placeholder="Tel No:" value="">
-                      </div>
-                    </div>
-                    <div class="col-md-6 pl-1">
-                      <div class="form-group">
-                        <label for="exampleInputEmail1">Email</label>
-                        <input type="email" name="" class="form-control" placeholder="Email" value="">
-                      </div>
-                    </div>
-                  </div>
-                 <div class="row">
-                    <div class="col-md-4 pl-2">
-                      <div class="form-group">
-                        <label>Account Type</label>
+                        <label>Survey</label>
                         <select class="form-control" name="cata">
                             <option value="">No Select</option>
                             <option value="">gjhgjhg</option>
                         </select>
                       </div>
                     </div>
-                    <div class="col-md-4 pl-2">
-                        <div class="form-group">
-                            <label>Department</label>
-                            <select class="form-control" name="cata">
-                                <option value="">No Select</option>
-                                <option value="">gjhgjhg</option>
-                            </select>
-                          </div>
-                    </div>
-                    <div class="col-md-3 pl-2">
-                        <div class="form-group">
-                            <label> Current Satate</label>
-                            <select class="form-control" name="cata">
-                                <option value="">No Select</option>
-                                <option value="">gjhgjhg</option>
-                            </select>
-                          </div>
-                    </div>
                   </div>
                   <div class="row">
                     <div class="update ml-auto mr-auto">
-                      <button type="submit" name="submit1" class="btn btn-primary btn-round">Create</button>
+                      <button type="submit" name="submit1" class="btn btn-primary btn-round">PDF</button>
                     </div>
                   </div>
                 </form>
