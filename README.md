@@ -8,3 +8,6 @@ aluten down load karala ganna
 
 withage ge interface hari
 aluten down load karala ganna
+
+jori ge interface hari
+aluten down load karala ganna
