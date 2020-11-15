@@ -6,7 +6,7 @@
   <link rel="apple-touch-icon" sizes="76x76" href="img/teclog.png">
   <link rel="icon" type="image/png" href="img/teclog.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <title>RuhTecInventory.lk/Admin</title>
+  <title>RuhTecInventory.lk/Manage item & catagory</title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
  <!--------font & Awesome icon link down----------->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
@@ -40,63 +40,21 @@
             </a>
           </li>
           <li>
-            <a href="#">
-              <i class="nc-icon nc-tap-01"></i>
-              <p>Approve Maintenace</p>
-            </a>
-          </li>
-          <li>
-            <a href="userprofile.html">
-              <i class="nc-icon nc-single-02"></i>
-              <p>User Profile</p>
-            </a>
-          </li>
-          <li>
-            <a href="itemcatagory.html">
+            <a href=".html">
               <i class="nc-icon nc-simple-add"></i>
-              <p>Item & Catagory </p>
+              <p>Add New Item </p>
             </a>
           </li>
           <li>
-            <a href="mangeuser.html">
+            <a href="moveitem.html">
+              <i class="nc-icon nc-send"></i>
+              <p>Move Item</p>
+            </a>
+          </li>
+          <li>
+            <a href=".html">
               <i class="nc-icon nc-badge"></i>
-              <p>Manage User</p>
-            </a>
-          </li>
-          <li>
-            <a href="feedback link">
-              <i class="nc-icon nc-chat-33"></i>
-              <p>Feedback</p>
-            </a>
-          </li>
-          <li>
-            <a href="reportgenarate.html">
-              <i class="nc-icon nc-chart-pie-36"></i>
-              <p>Report Genarate</p>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="nc-icon nc-layout-11"></i>
-              <p>Genarate Barcorde</p>
-            </a>
-          </li>
-          <li>
-            <a href="feedback link">
-              <i class="nc-icon nc-ambulance"></i>
-              <p>Suplyer</p>
-            </a>
-          </li>
-          <li>
-            <a href="feedback link">
-              <i class="nc-icon nc-alert-circle-i"></i>
-              <p>Repairing request</p>
-            </a>
-          </li>
-          <li>
-            <a href="survayform.html">
-              <i class="nc-icon nc-paper"></i>
-              <p>survey</p>
+              <p>Remove Item List</p>
             </a>
           </li>
         </ul>
@@ -106,18 +64,13 @@
       <nav class="navbar navbar-expand-lg navbar-absolute fixed-top navbar-transparent">
         <div class="container-fluid">
           <div class="navbar-wrapper">
-            <a class="navbar-brand" href="">Admin Panal</a>
+            <a class="navbar-brand" href="">Manage Item & Catagory</a>
           </div>
           <div class="collapse navbar-collapse justify-content-end" id="navigation">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link btn-rotate" href="log out eka link karanna">
                   <i class="nc-icon nc-button-power"></i>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link btn-rotate" href="bar code read link karanna">
-                  <i class="nc-icon nc-camera-compact"></i>
                 </a>
               </li>
               <li class="nav-item">
@@ -184,55 +137,55 @@
                     <thead class=" text-primary">
                       <tr>
                         <th>
-                          Id
-                        </th>
-                        <th>
-                          Catagory Id
-                        </th>
-                        <th>
-                          BarCode
-                        </th>
-                        <th>
-                          Item Name
-                        </th>
-                        <th>
-                          Model Name
-                        </th>
-                        <th>
-                          no01
-                        </th>
-                        <th>
-                          no02
-                        </th>
-                        <th>
-                          No3
-                        </th>
-                        <th>
-                          No4
-                        </th>
-                        <th>
                           Item Id
                         </th>
                         <th>
                           Item Name
                         </th>
                         <th>
-                          Item Quntity
+                          Description
                         </th>
                         <th>
-                         No5
+                          Add Date
                         </th>
                         <th>
-                          Delivary Cost
+                          Add User
                         </th>
                         <th>
-                          total cost
+                          Warranty
+                        </th>
+                        <th>
+                          Model Name
+                        </th>
+                        <th>
+                          Purchesed Companty	
+                        </th>
+                        <th>
+                          Price
+                        </th>
+                        <th>
+                          Invoice No
+                        </th>
+                        <th>
+                          Sirial No
+                        </th>
+                        <th>
+                          Current Department
+                        </th>
+                        <th>
+                          GRN
+                        </th>
+                        <th>
+                          Current State
+                        </th>
+                        <th>
+                          
                         </th>
                         <th class="text-right">
-                          Add Admin
+                          
                         </th>
                       </tr>
-                      </thead>
+                    </thead>
                     <tbody id="tabel_body">
                       <tr>
                         <td>
@@ -263,12 +216,6 @@
                             no        
                           </td>
                           <td>
-                            no     
-                          </td>
-                          <td>
-                            no        
-                          </td>
-                          <td>
                             no        
                           </td>
                           <td>
@@ -276,13 +223,20 @@
                           </td>
                           <td>
                             no     
+                          </td>
+                          <td>
+                            no       
+                          </td>
+                          <td>
+                            no       
+                          </td>
+                          <td>
+                            <a href="edituser.html"><button type="button" class="shipp_button">Edit</button></a>   
                           </td>
                           <td class="text-right"S>
-                            no       
-                          </td>
-                         
-                      </tr>                 
-                              
+                            <a href=""><button type="button" class="shipp_button">Remove</button></a>   
+                          </td> 
+                      </tr>                         
                     </tbody>
                   </table>
                 </div>
