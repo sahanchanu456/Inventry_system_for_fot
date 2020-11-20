@@ -14,3 +14,6 @@ aluten down load karala ganna
 
 chamika ge interface hari
 aluten down load karala ganna
+
+ataya ge interface hari
+aluten down load karala ganna
