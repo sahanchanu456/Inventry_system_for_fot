@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Nov 20, 2020 at 08:24 PM
+-- Generation Time: Nov 23, 2020 at 03:16 PM
 -- Server version: 10.4.10-MariaDB
 -- PHP Version: 7.3.12
 
@@ -114,11 +114,11 @@ CREATE TABLE IF NOT EXISTS `feedback` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `good`
+-- Table structure for table `item`
 --
 
-DROP TABLE IF EXISTS `good`;
-CREATE TABLE IF NOT EXISTS `good` (
+DROP TABLE IF EXISTS `item`;
+CREATE TABLE IF NOT EXISTS `item` (
   `item_id` int(200) NOT NULL AUTO_INCREMENT,
   `barcode` int(250) NOT NULL,
   `name` varchar(50) NOT NULL,
@@ -132,10 +132,9 @@ CREATE TABLE IF NOT EXISTS `good` (
   `purchesed_companty` varchar(5) NOT NULL,
   `inventory_page_no` int(11) NOT NULL,
   `current_department` varchar(5) DEFAULT NULL,
-  `store_book_page_no` int(11) NOT NULL,
   `GRN_no` varchar(5) NOT NULL,
-  `buyer_job_possession` varchar(20) DEFAULT NULL,
-  `buyer_department` varchar(5) NOT NULL,
+  `move_sate` varchar(20) DEFAULT NULL,
+  `owner_department` varchar(5) NOT NULL,
   `current_state` varchar(50) DEFAULT NULL,
   `image` varchar(255) NOT NULL,
   `pdf` varchar(255) NOT NULL,
@@ -193,6 +192,26 @@ CREATE TABLE IF NOT EXISTS `model` (
   `subcategory_id` varchar(5) NOT NULL,
   `description` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`model_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `move`
+--
+
+DROP TABLE IF EXISTS `move`;
+CREATE TABLE IF NOT EXISTS `move` (
+  `move_id` int(200) NOT NULL AUTO_INCREMENT,
+  `item_id` int(200) NOT NULL,
+  `date_add` date NOT NULL,
+  `date_reseve` date NOT NULL,
+  `owner_department` varchar(200) NOT NULL,
+  `current_department` varchar(200) NOT NULL,
+  `move_type` varchar(50) NOT NULL,
+  `discription` varchar(700) NOT NULL,
+  `reseve` varchar(200) NOT NULL,
+  PRIMARY KEY (`move_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
