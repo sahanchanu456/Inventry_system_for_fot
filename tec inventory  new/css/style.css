@@ -6510,28 +6510,16 @@ img {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.msgsuc{
+  color: rgb(8, 170, 54);
+  background-color: #06ff302d;
+  border-radius: 25px;
+  padding-left: 20px;
+}
 
 .error{
   color: rgb(255, 0, 0);
-  background-color: #0000002d;
+  background-color: #ff06062d;
   border-radius: 25px;
   padding-left: 20px;
 }
